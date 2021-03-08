@@ -27,7 +27,7 @@ const useStyles = makeStyles({
 export default function Header() {
 	const classes = useStyles();
 	return (
-		<Paper className={classes.paper} id='#about-me'>
+		<Paper className={classes.paper}>
 			<Grid container justify='center' alignItems='center' direction='column'>
 				<Avatar src={userImage} style={{ height: 100, width: 100 }} />
 				<Typography variant='h5'>Abdulhakeem Dahir</Typography>
