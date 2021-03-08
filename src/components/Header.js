@@ -18,9 +18,16 @@ const useStyles = makeStyles({
 	paper: {
 		margin: "5px 0px",
 		padding: "10px",
+		background: "rgba( 255, 255, 255, 0.25 )",
+		boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+		backdropFilter: "blur( 4px )",
+		// webkitBackdropFilter: "blur( 4px )",
+		borderRadius: "10px",
+		border: "1px solid rgba( 255, 255, 255, 0.18 )",
+		// boxShadow: "0 3.42857px 23px rgba(0, 0, 0, 0.1)",
 	},
 	button: {
-		margin: "5px 5px",
+		boxShadow: "0 3.42857px 23px rgba(0, 0, 0, 0.1)",
 	},
 });
 
@@ -39,7 +46,7 @@ export default function Header() {
 					somlutions@gmail.com
 				</Typography>
 				<Grid direction='row'>
-					<ButtonGroup>
+					<ButtonGroup className={classes.button}>
 						<Button
 							startIcon={<Github />}
 							href='https://github.com/abdulhakeemdahir'

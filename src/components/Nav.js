@@ -14,6 +14,9 @@ import { Home } from "@material-ui/icons";
 import NavDrawer from "./NavDrawer";
 
 const useStyles = makeStyles({
+	appBar: {
+		boxShadow: "0 3.42857px 23px rgba(0, 0, 0, 0.1)",
+	},
 	navbarDisplayFlex: {
 		display: `flex`,
 		justifyContent: `space-between`,
@@ -39,7 +42,7 @@ const Header = () => {
 	const classes = useStyles();
 
 	return (
-		<AppBar position='static'>
+		<AppBar position='static' className={classes.appBar}>
 			<Toolbar>
 				<Container maxWidth='lg' className={classes.navbarDisplayFlex}>
 					<IconButton edge='start' color='inherit' aria-label='home'>
