@@ -12,6 +12,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Github from "@material-ui/icons/GitHub";
 import LinkedIn from "@material-ui/icons/LinkedIn";
 import Pages from "@material-ui/icons/Pages";
+import userImage from "../images/abdulhakeempic.jpg";
 
 const useStyles = makeStyles({
 	paper: {
@@ -28,7 +29,7 @@ export default function Header() {
 	return (
 		<Paper className={classes.paper} id='#about-me'>
 			<Grid container justify='center' alignItems='center' direction='column'>
-				<Avatar />
+				<Avatar src={userImage} style={{ height: 100, width: 100 }} />
 				<Typography variant='h5'>Abdulhakeem Dahir</Typography>
 				<Typography variant='subtitle1' style={{ fontStyle: "italic" }}>
 					Full Stack Web Developer
