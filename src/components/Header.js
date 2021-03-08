@@ -20,11 +20,11 @@ const useStyles = makeStyles({
 export default function Header() {
 	const classes = useStyles();
 	return (
-		<Paper className={classes.paper}>
+		<Paper className={classes.paper} id='#about-me'>
 			<Grid container justify='center' alignItems='center' direction='column'>
 				<Avatar />
 				<Typography variant='h5'>Abdulhakeem Dahir</Typography>
-				<Typography variant='h6'>Full Stack Web Developer</Typography>
+				<Typography variant='subtitle1'>Full Stack Web Developer</Typography>
 			</Grid>
 		</Paper>
 	);

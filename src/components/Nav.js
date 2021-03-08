@@ -41,7 +41,7 @@ const Header = () => {
 	return (
 		<AppBar position='static'>
 			<Toolbar>
-				<Container maxWidth='md' className={classes.navbarDisplayFlex}>
+				<Container maxWidth='lg' className={classes.navbarDisplayFlex}>
 					<IconButton edge='start' color='inherit' aria-label='home'>
 						<Home fontSize='large' />
 					</IconButton>
