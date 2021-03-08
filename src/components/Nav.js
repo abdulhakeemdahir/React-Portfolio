@@ -10,7 +10,7 @@ import {
 	Hidden,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
-import { Home } from "@material-ui/icons";
+import { AccountCircle } from "@material-ui/icons";
 import NavDrawer from "./NavDrawer";
 
 const useStyles = makeStyles({
@@ -45,8 +45,8 @@ const Header = () => {
 		<AppBar position='static' className={classes.appBar}>
 			<Toolbar>
 				<Container maxWidth='lg' className={classes.navbarDisplayFlex}>
-					<IconButton edge='start' color='inherit' aria-label='home'>
-						<Home fontSize='large' />
+					<IconButton edge='start' color='inherit' aria-label='AccountCircle'>
+						<AccountCircle fontSize='large' />
 					</IconButton>
 					<Hidden smDown>
 						<List

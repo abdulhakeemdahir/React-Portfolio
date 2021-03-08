@@ -9,22 +9,30 @@ import { CssBaseline } from "@material-ui/core";
 export default function Projects() {
 	const [projectState, setProjectState] = useState([
 		{
-			title: "Project 2",
+			title: "One World Academy",
 			media: Project2,
 			summary:
 				"One World Academy is a learning management system where users can create courses and browse courses created by other users.",
+			github: "https://github.com/TaaniBravo/One-World-Academy",
+			live: "https://oneworldacademy.herokuapp.com/",
 		},
 		{
-			title: "Project 3",
+			title: "Covid Tracker",
 			media: Project1,
 			summary:
 				"This was our first class project. We decided to create a dynamic State Covid tracker as a resource for Travelers.",
+			github: "https://github.com/UWCode-Group-5/State-COVID-Tracker",
+			live: "https://uwcode-group-5.github.io/State-COVID-Tracker/",
 		},
 		{
-			title: "Project 4",
+			title: "Workday Scheduler",
 			media: Homework5,
 			summary:
 				"The Day Planner Application required us to navigate the DOM and to incorporate Local Storage as well as use jQuery.",
+			github:
+				"https://github.com/abdulhakeemdahir/Work-Day-Scheduler-Application",
+			live:
+				"https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
 		},
 	]);
 	return (
@@ -41,6 +49,8 @@ export default function Projects() {
 							title={card.title}
 							media={card.media}
 							summary={card.summary}
+							github={card.github}
+							live={card.live}
 						/>
 					))}
 				</Grid>
