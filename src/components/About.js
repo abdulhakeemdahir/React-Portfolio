@@ -25,8 +25,13 @@ export default function About() {
 	return (
 		<Paper className={classes.paper} id='#about-me'>
 			<Grid container justify='center' alignItems='left' direction='column'>
-				<Typography variant='h5' style={{ fontWeight: "bold" }}>
-					<IconButton edge='start' color='inherit' aria-label='home'>
+				<Typography
+					variant='h5'
+					style={{
+						fontWeight: "bold",
+					}}
+				>
+					<IconButton edge='start' color='secondary' aria-label='home'>
 						<VerifiedUser />
 					</IconButton>
 					About Me:
@@ -39,6 +44,7 @@ export default function About() {
 							background: "#fafafa",
 							padding: "10px",
 							borderRadius: "10px",
+							marginLeft: "10px",
 						}}
 					>
 						Hello everyone, and welcome to my Online Portfolio! My name is
