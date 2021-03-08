@@ -1,36 +1,72 @@
-import React from "react";
+import * as React from "react";
 import {
 	AppBar,
 	Toolbar,
-	ListItem,
+	Container,
 	IconButton,
-	ListItemText,
-	Avatar,
-	Divider,
 	List,
-	Typography,
-	Box,
-	Icon,
+	ListItem,
+	ListItemText,
+	Hidden,
 } from "@material-ui/core";
-import {
-	Menu,
-	ArrowBack,
-	AssignmentInd,
-	Home,
-	Apps,
-	ContactMail,
-} from "@material-ui/icons";
+import { makeStyles } from "@material-ui/core";
+import { Home } from "@material-ui/icons";
+import SideDrawer from "./SideDrawer";
 
-export default function Nav() {
+const useStyles = makeStyles({
+	navbarDisplayFlex: {
+		display: `flex`,
+		justifyContent: `space-between`,
+	},
+	navDisplayFlex: {
+		display: `flex`,
+		justifyContent: `space-between`,
+	},
+	linkText: {
+		textDecoration: `none`,
+		textTransform: `uppercase`,
+		color: `white`,
+	},
+});
+
+const navLinks = [
+	{ title: `about me`, path: `#about-me` },
+	{ title: `projects`, path: `#projects` },
+	{ title: `skills`, path: `#skills` },
+];
+
+const Header = () => {
+	const classes = useStyles();
+
 	return (
-		<Box component='nav'>
-			<AppBar>
-				<Toolbar>
-					<IconButton>
-						<Menu />
+		<AppBar position='static'>
+			<Toolbar>
+				<Container maxWidth='md' className={classes.navbarDisplayFlex}>
+					<IconButton edge='start' color='inherit' aria-label='home'>
+						<Home fontSize='large' />
 					</IconButton>
-				</Toolbar>
-			</AppBar>
-		</Box>
+					<Hidden smDown>
+						<List
+							component='nav'
+							aria-labelledby='main navigation'
+							className={classes.navDisplayFlex}
+						>
+							{navLinks.map(({ title, path }) => (
+								<a href={path} key={title} className={classes.linkText}>
+									<ListItem button>
+										<ListItemText primary={title} />
+									</ListItem>
+								</a>
+							))}
+						</List>
+					</Hidden>
+					<Hidden mdUp>
+						<SideDrawer navLinks={navLinks} />
+					</Hidden>
+				</Container>
+			</Toolbar>
+		</AppBar>
 	);
-}
+};
+
+export default Header;
