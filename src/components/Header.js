@@ -67,7 +67,7 @@ export default function Header() {
 							startIcon={<Pages />}
 							href='https://github.com/abdulhakeemdahir'
 							variant='contained'
-							color='primary'
+							style={{ background: "#ffffff" }}
 						>
 							Resume
 						</Button>

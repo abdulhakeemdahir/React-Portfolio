@@ -18,19 +18,7 @@ const useStyles = makeStyles(theme => ({
 	media: {
 		height: 0,
 		paddingTop: "56.25%", // 16:9
-	},
-	expand: {
-		transform: "rotate(0deg)",
-		marginLeft: "auto",
-		transition: theme.transitions.create("transform", {
-			duration: theme.transitions.duration.shortest,
-		}),
-	},
-	expandOpen: {
-		transform: "rotate(180deg)",
-	},
-	avatar: {
-		backgroundColor: red[500],
+		borderRadius: "10px",
 	},
 	paper: {
 		margin: "15px 5px",
@@ -67,7 +55,7 @@ export default function Cards(props) {
 					</Typography>
 				</CardContent>
 				{/* <CardActions disableSpacing> */}
-				<IconButton aria-label='add to favorites' xs={12}>
+				<IconButton aria-label='add to favorites'>
 					<ButtonGroup>
 						<Button
 							startIcon={<GitHub />}
