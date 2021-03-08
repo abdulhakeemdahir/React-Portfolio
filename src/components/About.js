@@ -5,7 +5,8 @@ import { VerifiedUser } from "@material-ui/icons";
 
 const useStyles = makeStyles({
 	paper: {
-		margin: "5px 0px",
+		height: "100%",
+		// margin: "5px 0px",
 		padding: "10px",
 		background: "rgba( 255, 255, 255, 0.25 )",
 		boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
@@ -43,7 +44,7 @@ export default function About() {
 							fontStyle: "italic",
 							background: "#fafafa",
 							padding: "10px",
-							borderRadius: "10px",
+							// borderRadius: "10px",
 							marginLeft: "10px",
 						}}
 					>

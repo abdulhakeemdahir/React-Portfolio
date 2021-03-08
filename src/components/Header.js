@@ -16,7 +16,8 @@ import userImage from "../images/abdulhakeempic.jpg";
 
 const useStyles = makeStyles({
 	paper: {
-		margin: "15px 0px",
+		height: "100%",
+		// margin: "15px 0px",
 		padding: "10px",
 		background: "rgba( 255, 255, 255, 0.25 )",
 		boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
