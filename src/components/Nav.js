@@ -11,7 +11,7 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
 import { Home } from "@material-ui/icons";
-import SideDrawer from "./SideDrawer";
+import NavDrawer from "./NavDrawer";
 
 const useStyles = makeStyles({
 	navbarDisplayFlex: {
@@ -61,7 +61,7 @@ const Header = () => {
 						</List>
 					</Hidden>
 					<Hidden mdUp>
-						<SideDrawer navLinks={navLinks} />
+						<NavDrawer navLinks={navLinks} />
 					</Hidden>
 				</Container>
 			</Toolbar>
