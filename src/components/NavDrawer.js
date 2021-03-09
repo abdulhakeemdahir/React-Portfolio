@@ -9,7 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Menu } from "@material-ui/icons";
 import * as React from "react";
 import { useState } from "react";
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const useStyles = makeStyles({
 	list: {

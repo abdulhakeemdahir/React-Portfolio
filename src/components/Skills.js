@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography, Grid, Avatar } from "@material-ui/core";
+import { Grid, Avatar } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import html from "../images/html.png";
 import css from "../images/css.png";
@@ -68,7 +68,6 @@ export default function Skills() {
 						className={classes.media}
 						src={skill.image}
 					/>
-					{/* <Typography variant='subtitle1'>{skill.skill}</Typography> */}
 				</Grid>
 			))}
 		</Grid>
