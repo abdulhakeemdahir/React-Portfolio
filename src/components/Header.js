@@ -52,7 +52,7 @@ export default function Header() {
 					</Button>
 					<Button
 						startIcon={<LinkedIn />}
-						href='https://github.com/abdulhakeemdahir'
+						href='https://www.linkedin.com/in/abdulhakeem-dahir-5330b5177/'
 						variant='contained'
 						color='secondary'
 					>
@@ -60,7 +60,7 @@ export default function Header() {
 					</Button>
 					<Button
 						startIcon={<Pages />}
-						href='https://github.com/abdulhakeemdahir'
+						href='https://drive.google.com/file/d/1MNN_jNYRZ_ZJAjBtRntyu5NkndSV4jlo/view?usp=sharing'
 						variant='contained'
 						style={{ background: "#ffffff" }}
 					>

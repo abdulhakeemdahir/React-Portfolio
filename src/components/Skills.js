@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography, Grid, CardMedia, Avatar } from "@material-ui/core";
+import { Typography, Grid, Avatar } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import html from "../images/html.png";
 import css from "../images/css.png";
