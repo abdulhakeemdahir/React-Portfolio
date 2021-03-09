@@ -8,6 +8,7 @@ import {
 	ListItem,
 	ListItemText,
 	Hidden,
+	Typography,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
 import { AccountCircle } from "@material-ui/icons";
@@ -48,6 +49,7 @@ const Header = () => {
 				<Container maxWidth='lg' className={classes.navbarDisplayFlex}>
 					<IconButton edge='start' color='inherit' aria-label='AccountCircle'>
 						<AccountCircle fontSize='large' />
+						<Typography variant='h6'>My Portfolio</Typography>
 					</IconButton>
 					<Hidden smDown>
 						<List
