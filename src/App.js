@@ -70,6 +70,7 @@ function App() {
 				</Typography>
 				<Divider />
 				<Projects />
+				<Divider />
 				<Grid container justify='center'>
 					<Button
 						startIcon={<Github />}
