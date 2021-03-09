@@ -1,10 +1,17 @@
 import Nav from "./components/Nav";
-import { Container, Grid, Typography, Divider } from "@material-ui/core";
+import {
+	Grid,
+	Typography,
+	Divider,
+	Button,
+	Container,
+} from "@material-ui/core";
 import Header from "./components/Header";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import { makeStyles } from "@material-ui/core/styles";
 import Skills from "./components/Skills";
+import Github from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles({
 	text: {
@@ -19,6 +26,9 @@ const useStyles = makeStyles({
 		backdropFilter: "blur( 4px )",
 		borderRadius: "10px",
 		border: "1px solid rgba( 255, 255, 255, 0.18 )",
+	},
+	button: {
+		marginTop: "25px",
 	},
 });
 
@@ -58,6 +68,18 @@ function App() {
 				</Typography>
 				<Divider />
 				<Projects />
+				<Grid container justify='center'>
+					<Button
+						startIcon={<Github />}
+						href='https://github.com/abdulhakeemdahir'
+						variant='contained'
+						color='secondary'
+						size='large'
+						className={classes.button}
+					>
+						More GitHub Repos
+					</Button>
+				</Grid>
 				<Typography
 					variant='subtitle1'
 					className={classes.text}
