@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Cards from "./Cards";
-import { Container, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import Project1 from "../images/project-1.png";
 import Project2 from "../images/project-2.png";
 import Homework5 from "../images/homework5.png";
 import { CssBaseline } from "@material-ui/core";
 
 export default function Projects() {
-	const [projectState, setProjectState] = useState([
+	const [projectState] = useState([
 		{
 			title: "One World Academy",
 			media: Project2,

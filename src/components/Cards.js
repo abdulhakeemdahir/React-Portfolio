@@ -5,9 +5,6 @@ import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import { red } from "@material-ui/core/colors";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import ShareIcon from "@material-ui/icons/Share";
 import { Grid, ButtonGroup, Button } from "@material-ui/core";
 import { GitHub, Public, Web } from "@material-ui/icons";
 
@@ -26,21 +23,13 @@ const useStyles = makeStyles(theme => ({
 		background: "rgba( 255, 255, 255, 0.25 )",
 		boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
 		backdropFilter: "blur( 4px )",
-		// PublickitBackdropFilter: "blur( 4px )",
 		borderRadius: "10px",
 		border: "1px solid rgba( 255, 255, 255, 0.18 )",
-		// boxShadow: "0 3.42857px 23px rgba(0, 0, 0, 0.1)",
 	},
 }));
 
 export default function Cards(props) {
 	const classes = useStyles();
-	const [expanded, setExpanded] = React.useState(false);
-
-	const handleExpandClick = () => {
-		setExpanded(!expanded);
-	};
-	console.log(props);
 	return (
 		<Grid item xs={12} sm={4}>
 			<Card className={classes.paper}>
@@ -54,7 +43,6 @@ export default function Cards(props) {
 						{props.summary}
 					</Typography>
 				</CardContent>
-				{/* <CardActions disableSpacing> */}
 				<IconButton aria-label='add to favorites'>
 					<ButtonGroup>
 						<Button
