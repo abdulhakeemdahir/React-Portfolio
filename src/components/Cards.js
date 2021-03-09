@@ -1,11 +1,16 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardMedia from "@material-ui/core/CardMedia";
-import CardContent from "@material-ui/core/CardContent";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
-import { Grid, ButtonGroup, Button } from "@material-ui/core";
+import {
+	makeStyles,
+	Card,
+	CardMedia,
+	CardContent,
+	IconButton,
+	Typography,
+	Grid,
+	ButtonGroup,
+	Button,
+	Divider,
+} from "@material-ui/core";
 import { GitHub, Public, Web } from "@material-ui/icons";
 
 const useStyles = makeStyles(theme => ({
@@ -31,7 +36,7 @@ const useStyles = makeStyles(theme => ({
 export default function Cards(props) {
 	const classes = useStyles();
 	return (
-		<Grid item xs={12} sm={4}>
+		<Grid item xs={12} sm={3}>
 			<Card className={classes.paper}>
 				<Typography variant='h5' style={{ fontWeight: "bold" }}>
 					<Web color='secondary' style={{ marginRight: "10" }} />
@@ -43,6 +48,7 @@ export default function Cards(props) {
 						{props.summary}
 					</Typography>
 				</CardContent>
+				<Divider />
 				<IconButton aria-label='add to favorites'>
 					<ButtonGroup>
 						<Button
@@ -51,7 +57,7 @@ export default function Cards(props) {
 							variant='contained'
 							color='primary'
 						>
-							GitHub Repo
+							GitHub
 						</Button>
 						<Button
 							startIcon={<Public />}

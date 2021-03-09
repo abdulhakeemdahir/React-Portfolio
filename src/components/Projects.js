@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import Cards from "./Cards";
 import { Grid } from "@material-ui/core";
-import Project1 from "../images/project-1.png";
 import Project2 from "../images/project-2.png";
+import Project1 from "../images/project-1.png";
+import Homework18 from "../images/hw18.png";
+import Homework17 from "../images/hw17.png";
+import Homework12 from "../images/hw12.png";
+import Homework11 from "../images/hw11.png";
+import Homework6 from "../images/hw6.png";
 import Homework5 from "../images/homework5.png";
 import { CssBaseline } from "@material-ui/core";
 
@@ -23,6 +28,51 @@ export default function Projects() {
 				"This was our first class project. We decided to create a dynamic State Covid tracker as a resource for Travelers.",
 			github: "https://github.com/UWCode-Group-5/State-COVID-Tracker",
 			live: "https://uwcode-group-5.github.io/State-COVID-Tracker/",
+		},
+		{
+			title: "Progressive Bgt App",
+			media: Homework18,
+			summary:
+				"Created a Progressive Budget Application that allows a user to still input data when offline, and sends data once online.",
+			github:
+				"https://github.com/abdulhakeemdahir/Work-Day-Scheduler-Application",
+			live:
+				"https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
+		},
+		{
+			title: "Workout Application",
+			media: Homework17,
+			summary:
+				"This application allows you to keep track of all your workouts, it also calculates your total weights, reps and sets.",
+			github: "https://github.com/abdulhakeemdahir/Workout-Tracker-Application",
+			live:
+				"https://still-gorge-03888.herokuapp.com/?id=602a9d98624f810015cc4f0c",
+		},
+		{
+			title: "Employee App",
+			media: Homework12,
+			summary:
+				"This is a CLI application that enables you to add, delete, update and manage employees via MySql databse and queriers.",
+			github:
+				"https://github.com/abdulhakeemdahir/employee-management-system-application",
+			live: null,
+		},
+		{
+			title: "Note Taker",
+			media: Homework11,
+			summary:
+				"This application allows a user to take important notes and save them to a database. We used Node, Express and Heroku",
+			github: "https://github.com/abdulhakeemdahir/Note-Taker-Application",
+			live: "https://note-taker-application-uw.herokuapp.com/notes",
+		},
+		{
+			title: "Weather App",
+			media: Homework6,
+			summary:
+				"This application uses the Weather API to get current Day and future 5 day forecasts as well as the UV Index for any city in the world.",
+			github:
+				"https://github.com/abdulhakeemdahir/Weather-Dashboard-Application",
+			live: "https://abdulhakeemdahir.github.io/Weather-Dashboard-Application/",
 		},
 		{
 			title: "Workday Scheduler",

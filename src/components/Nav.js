@@ -64,7 +64,7 @@ const Header = () => {
 									spy={true}
 									smooth={true}
 									offset={-70}
-									duration={500}
+									duration={1000}
 								>
 									<a href={path} key={title} className={classes.linkText}>
 										<ListItem button>

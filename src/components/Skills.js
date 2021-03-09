@@ -30,6 +30,7 @@ export default function Skills() {
 		{
 			image: html,
 			skill: "HTML",
+			summary: ["Semantic HTML", "HTML 5", "Accessebility", "Data Attributes"],
 		},
 		{
 			image: css,
