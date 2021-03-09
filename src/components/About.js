@@ -20,7 +20,7 @@ const useStyles = makeStyles({
 export default function About() {
 	const classes = useStyles();
 	return (
-		<Paper className={classes.paper} id='#about-me'>
+		<Paper className={classes.paper}>
 			<Grid container justify='center' alignItems='left' direction='column'>
 				<Typography
 					variant='h5'

@@ -9,6 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Menu } from "@material-ui/icons";
 import * as React from "react";
 import { useState } from "react";
+import { Link, animateScroll as Scroll } from "react-scroll";
 
 const useStyles = makeStyles({
 	list: {
@@ -45,11 +46,20 @@ const SideDrawer = ({ navLinks }) => {
 		>
 			<List component='nav'>
 				{navLinks.map(({ title, path }) => (
-					<a href={path} key={title} className={classes.linkText}>
-						<ListItem button>
-							<ListItemText primary={title} />
-						</ListItem>
-					</a>
+					<Link
+						activeClass='active'
+						to={path}
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}
+					>
+						<a href={path} key={title} className={classes.linkText}>
+							<ListItem button>
+								<ListItemText primary={title} />
+							</ListItem>
+						</a>
+					</Link>
 				))}
 			</List>
 		</div>

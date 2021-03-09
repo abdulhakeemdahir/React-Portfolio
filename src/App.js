@@ -42,6 +42,7 @@ function App() {
 					variant='subtitle1'
 					className={classes.text}
 					color='secondary'
+					id='#about-me'
 				>
 					About Section:
 				</Typography>
@@ -63,6 +64,7 @@ function App() {
 					variant='subtitle1'
 					className={classes.text}
 					color='secondary'
+					id='#projects'
 				>
 					Projects Section:
 				</Typography>
@@ -84,6 +86,7 @@ function App() {
 					variant='subtitle1'
 					className={classes.text}
 					color='secondary'
+					id='#skills'
 				>
 					Skills Section:
 				</Typography>
