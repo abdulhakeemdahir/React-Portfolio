@@ -29,7 +29,7 @@ export default function Projects() {
 				"One World Academy is a learning management system where users can create courses and browse courses created by other users.",
 			github: "https://github.com/TaaniBravo/One-World-Academy",
 			live: "https://oneworldacademy.herokuapp.com/",
-			tech: "React, Node, Express, MongoDB",
+			tech: "Javascript, Node, Express, MySQL",
 		},
 		{
 			title: "Covid Tracker",
@@ -38,7 +38,7 @@ export default function Projects() {
 				"This was our first class project. We decided to create a dynamic State Covid tracker as a resource for Travelers.",
 			github: "https://github.com/UWCode-Group-5/State-COVID-Tracker",
 			live: "https://uwcode-group-5.github.io/State-COVID-Tracker/",
-			tech: "React, Node, Express, MongoDB",
+			tech: "Javascript, jQuery, Bootstrap",
 		},
 		{
 			title: "Progressive Bgt App",
@@ -49,7 +49,7 @@ export default function Projects() {
 				"https://github.com/abdulhakeemdahir/Work-Day-Scheduler-Application",
 			live:
 				"https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
-			tech: "React, Node, Express, MongoDB",
+			tech: "Javascript, IndexedDB, WebPack",
 		},
 		{
 			title: "Workout Application",
@@ -59,7 +59,7 @@ export default function Projects() {
 			github: "https://github.com/abdulhakeemdahir/Workout-Tracker-Application",
 			live:
 				"https://still-gorge-03888.herokuapp.com/?id=602a9d98624f810015cc4f0c",
-			tech: "React, Node, Express, MongoDB",
+			tech: "Node, Express, MongoDB, Mongoose",
 		},
 		{
 			title: "Employee App",
@@ -69,7 +69,7 @@ export default function Projects() {
 			github:
 				"https://github.com/abdulhakeemdahir/employee-management-system-application",
 			live: null,
-			tech: "React, Node, Express, MongoDB",
+			tech: "Node, Express, MySQL",
 		},
 		{
 			title: "Weather App",
@@ -79,7 +79,7 @@ export default function Projects() {
 			github:
 				"https://github.com/abdulhakeemdahir/Weather-Dashboard-Application",
 			live: "https://abdulhakeemdahir.github.io/Weather-Dashboard-Application/",
-			tech: "React, Node, Express, MongoDB",
+			tech: "Html, CSS, jQuery AJAX",
 		},
 		{
 			title: "Workday Scheduler",
@@ -90,7 +90,7 @@ export default function Projects() {
 				"https://github.com/abdulhakeemdahir/Work-Day-Scheduler-Application",
 			live:
 				"https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
-			tech: "React, Node, Express, MongoDB",
+			tech: "Javascript, jQuery, 3rd Party API",
 		},
 	]);
 	return (
