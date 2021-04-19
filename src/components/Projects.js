@@ -6,13 +6,21 @@ import Project1 from "../images/project-1.png";
 import Homework18 from "../images/hw18.png";
 import Homework17 from "../images/hw17.png";
 import Homework12 from "../images/hw12.png";
-import Homework11 from "../images/hw11.png";
+import Homework11 from "../images/hw11.gif";
 import Homework6 from "../images/hw6.png";
 import Homework5 from "../images/homework5.png";
 import { CssBaseline } from "@material-ui/core";
 
 export default function Projects() {
 	const [projectState] = useState([
+		{
+			title: "Dono Application",
+			media: Homework11,
+			summary:
+				"This application allows NGO's to create causes that users can financially support, and more features to communicate with their donors.",
+			github: "https://github.com/abdulhakeemdahir/Note-Taker-Application",
+			live: "https://note-taker-application-uw.herokuapp.com/notes",
+		},
 		{
 			title: "One World Academy",
 			media: Project2,
@@ -56,14 +64,6 @@ export default function Projects() {
 			github:
 				"https://github.com/abdulhakeemdahir/employee-management-system-application",
 			live: null,
-		},
-		{
-			title: "Note Taker",
-			media: Homework11,
-			summary:
-				"This application allows a user to take important notes and save them to a database. We used Node, Express and Heroku",
-			github: "https://github.com/abdulhakeemdahir/Note-Taker-Application",
-			live: "https://note-taker-application-uw.herokuapp.com/notes",
 		},
 		{
 			title: "Weather App",
