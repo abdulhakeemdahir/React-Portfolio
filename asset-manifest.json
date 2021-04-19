@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.bc063335.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.bc063335.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.c7986009.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c7986009.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
-    "static/js/2.8f7c86a6.chunk.js": "/react-portfolio/static/js/2.8f7c86a6.chunk.js",
-    "static/js/2.8f7c86a6.chunk.js.map": "/react-portfolio/static/js/2.8f7c86a6.chunk.js.map",
+    "static/js/2.c08513e9.chunk.js": "/react-portfolio/static/js/2.c08513e9.chunk.js",
+    "static/js/2.c08513e9.chunk.js.map": "/react-portfolio/static/js/2.c08513e9.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/js/2.8f7c86a6.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8f7c86a6.chunk.js.LICENSE.txt",
+    "static/js/2.c08513e9.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c08513e9.chunk.js.LICENSE.txt",
     "static/media/abdulhakeempic.61fcea51.jpg": "/react-portfolio/static/media/abdulhakeempic.61fcea51.jpg",
     "static/media/bootstrap.eaafdeb5.png": "/react-portfolio/static/media/bootstrap.eaafdeb5.png",
     "static/media/homework5.44864c3d.png": "/react-portfolio/static/media/homework5.44864c3d.png",
+    "static/media/hw11.460d8318.gif": "/react-portfolio/static/media/hw11.460d8318.gif",
+    "static/media/hw12.ee4af0dc.png": "/react-portfolio/static/media/hw12.ee4af0dc.png",
+    "static/media/hw17.a4cc4795.png": "/react-portfolio/static/media/hw17.a4cc4795.png",
+    "static/media/hw18.78402234.png": "/react-portfolio/static/media/hw18.78402234.png",
+    "static/media/hw6.91b09f9b.png": "/react-portfolio/static/media/hw6.91b09f9b.png",
     "static/media/project-1.856c6a9b.png": "/react-portfolio/static/media/project-1.856c6a9b.png",
     "static/media/project-2.aaac0f85.png": "/react-portfolio/static/media/project-2.aaac0f85.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
-    "static/js/2.8f7c86a6.chunk.js",
-    "static/js/main.bc063335.chunk.js"
+    "static/js/2.c08513e9.chunk.js",
+    "static/js/main.c7986009.chunk.js"
   ]
 }
