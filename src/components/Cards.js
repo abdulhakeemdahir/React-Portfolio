@@ -44,6 +44,14 @@ export default function Cards(props) {
 				</Typography>
 				<CardMedia className={classes.media} image={props.media} />
 				<CardContent>
+					<Typography
+						variant='body3'
+						color='primary'
+						component='p'
+						style={{ fontWeight: "900" }}
+					>
+						{props.tech}
+					</Typography>
 					<Typography variant='body2' color='textSecondary' component='p'>
 						{props.summary}
 					</Typography>
