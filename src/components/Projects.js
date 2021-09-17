@@ -18,8 +18,8 @@ export default function Projects() {
 			media: Homework11,
 			summary:
 				"This application allows NGO's to create causes that users can financially support, and more features to communicate with their donors.",
-			github: "https://github.com/abdulhakeemdahir/Note-Taker-Application",
-			live: "https://note-taker-application-uw.herokuapp.com/notes",
+			github: "https://github.com/abdulhakeemdahir/dono-application",
+			live: "https://dono-application.herokuapp.com/",
 			tech: "React, Node, Express, MongoDB",
 		},
 		{
@@ -47,8 +47,7 @@ export default function Projects() {
 				"Created a Progressive Budget Application that allows a user to still input data when offline, and sends data once online.",
 			github:
 				"https://github.com/abdulhakeemdahir/Work-Day-Scheduler-Application",
-			live:
-				"https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
+			live: "https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
 			tech: "Javascript, IndexedDB, WebPack",
 		},
 		{
@@ -57,8 +56,7 @@ export default function Projects() {
 			summary:
 				"This application allows you to keep track of all your workouts, it also calculates your total weights, reps and sets.",
 			github: "https://github.com/abdulhakeemdahir/Workout-Tracker-Application",
-			live:
-				"https://still-gorge-03888.herokuapp.com/?id=602a9d98624f810015cc4f0c",
+			live: "https://still-gorge-03888.herokuapp.com/?id=602a9d98624f810015cc4f0c",
 			tech: "Node, Express, MongoDB, Mongoose",
 		},
 		{
@@ -88,8 +86,7 @@ export default function Projects() {
 				"The Day Planner Application required us to navigate the DOM and to incorporate Local Storage as well as use jQuery.",
 			github:
 				"https://github.com/abdulhakeemdahir/Work-Day-Scheduler-Application",
-			live:
-				"https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
+			live: "https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
 			tech: "Javascript, jQuery, 3rd Party API",
 		},
 	]);
