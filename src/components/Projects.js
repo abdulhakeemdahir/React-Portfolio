@@ -46,8 +46,8 @@ export default function Projects() {
 			summary:
 				"Created a Progressive Budget Application that allows a user to still input data when offline, and sends data once online.",
 			github:
-				"https://github.com/abdulhakeemdahir/Work-Day-Scheduler-Application",
-			live: "https://abdulhakeemdahir.github.io/Work-Day-Scheduler-Application/",
+				"https://github.com/abdulhakeemdahir/Progressive-Budget-Application",
+			live: "https://protected-temple-13979.herokuapp.com/",
 			tech: "Javascript, IndexedDB, WebPack",
 		},
 		{
